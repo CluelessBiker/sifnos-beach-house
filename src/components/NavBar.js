@@ -11,21 +11,25 @@ function NavBar() {
     const { expanded, setExpanded, ref } = ToggleCollapse();
 
     return (
-        <Container>
-            <Navbar expand="lg" expanded={expanded}>
+        <Container className={styles.NavContainer}>
+            <Navbar
+                expand="sm"
+                expanded={expanded}
+                sticky="top"
+            >
                 <Link to="/" className={styles.Header}>
-                    <Navbar.Brand className={styles.Test}>
+                    <Navbar.Brand>
                         <h1>Sifnos Beach House</h1>
                     </Navbar.Brand>
                 </Link>
+
                 <Navbar.Toggle
-                aria-controls="basic-navbar-nav"
-                ref={ref}
-                onClick={() => setExpanded(!expanded)}
+                    ref={ref}
+                    onClick={() => setExpanded(!expanded)}
                 />
 
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto text-left">
+                <Navbar.Collapse>
+                    <Nav className={styles.PageTitles}>
                         <NavLink
                             exact
                             to="/"
