@@ -4,3 +4,16 @@
     background-color: #FFFFFF;
 }
 
+/* LOGO */
+.Header {
+    text-align: left;
+}
+
+.Header h1 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #3a3a3a;
+    text-align: left;
+}
+
