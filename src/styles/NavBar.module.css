@@ -41,3 +41,20 @@
     justify-content: right;
 }
 
+@media screen and (max-width:767px) {
+    /* HEADER */
+    .Header h1 {
+        font-size: 2em;
+    }
+
+    .NavLink {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:380px) {
+    /* HEADER */
+    .Header h1 {
+        font-size: 1.4em;
+    }
+}
