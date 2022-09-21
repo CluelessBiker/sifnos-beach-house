@@ -1,0 +1,39 @@
+/* FONTS */
+h3 {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* FORM CONTAINER */
+.ContactForm {
+    margin: auto;
+    z-index: 19;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* FORM FIELDS */
+.Form {
+    text-align: center;
+}
+
+.Form input,
+.Form textarea,
+.Form button {
+    margin: 0 5px 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.Form textarea {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.Form button {
+    border-radius: 100px;
+    padding: 0 20px;
+}
