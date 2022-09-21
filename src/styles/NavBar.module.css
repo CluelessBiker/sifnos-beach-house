@@ -17,3 +17,27 @@
     text-align: left;
 }
 
+/* NAVLINKS */
+.NavLink{
+    color: #3a3a3a;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: right;
+    padding: 5px;
+}
+
+.NavLink:hover{
+    color: #4D0307;
+    text-decoration: none;
+}
+
+.Active{
+    color: #982036;
+}
+
+.PageTitles {
+    display: flex;
+    justify-content: right;
+}
+
