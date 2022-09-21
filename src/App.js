@@ -1,13 +1,16 @@
 /* eslint-disable */
-import { Container } from 'react-bootstrap';
+import { Col, Container } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Contact from './pages/Contact';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <Container>
-      <NavBar />
+    <Container className={styles.Container}>
+      <Col sm={12}>
+        <NavBar />
+      </Col>
       <Switch>
         <Route exact path="/" render={() => <h1>HELLO WORLD</h1>} />
         <Route exact path="/experience" render={() => <h1>EXPERIENCE</h1>} />
