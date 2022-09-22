@@ -42,13 +42,13 @@ function NavBar() {
                         </NavLink>
 
                         <NavLink
-                            to="/experience"
+                            to="/accommodation"
                             className={styles.NavLink}
                             activeClassName={styles.Active}
                             aria-label="events"
                             rel="noreferrer"
                         >
-                            Experience
+                            Accommodation
                         </NavLink>
 
                         <NavLink
