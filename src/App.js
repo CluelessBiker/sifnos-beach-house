@@ -14,7 +14,7 @@ function App() {
       </Col>
       <Switch>
         <Route exact path="/" render={() => <h1>HELLO WORLD</h1>} />
-        <Route exact path="/experience" render={() => <h1>EXPERIENCE</h1>} />
+        <Route exact path="/accommodation" render={() => <h1>ACCOMMODATION</h1>} />
         <Route exact path="/neighborhood" render={() => <Neighborhood />} />
         <Route exact path="/gallery" render={() => <h1>GALLERY</h1>} />
         <Route exact path="/contact" render={() => <Contact />} />
