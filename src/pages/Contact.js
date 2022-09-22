@@ -27,40 +27,47 @@ export const Contact = () => {
                 <Row>
                     <Col className={styles.Form}>
                         <form ref={form} onSubmit={sendEmail}>
-                            <input
-                                type="text"
-                                name="from_name"
-                                placeholder="full name*"
-                                required
-                            />
+                            <Row>
+                                <input
+                                    type="text"
+                                    name="from_name"
+                                    placeholder="full name*"
+                                    required
+                                />
 
-                            <input
-                                type="email"
-                                name="from_email"
-                                placeholder="email*"
-                                required
-                            />
-                            <input
-                                type="tel"
-                                name="from_number"
-                                placeholder="phone number*"
-                                required
-                            />
-                            <input
-                                type="date"
-                                name="arrival_date"
-                                placeholder="arrival"
-                            />
-                            <input
-                                type="date"
-                                name="departure_date"
-                                placeholder="departure"
-                            />
-                            <input
-                                type="number"
-                                name="number_of_guests"
-                                placeholder="number of guests"
-                            />
+                                <input
+                                    type="email"
+                                    name="from_email"
+                                    placeholder="email*"
+                                    required
+                                />
+                                <input
+                                    type="tel"
+                                    name="from_number"
+                                    placeholder="phone number*"
+                                    required
+                                />
+                            </Row>
+                            <Row>
+                                <input
+                                    type="date"
+                                    name="arrival_date"
+                                    placeholder="arrival"
+                                    required
+                                />
+                                <input
+                                    type="date"
+                                    name="departure_date"
+                                    placeholder="departure"
+                                    required
+                                />
+                                <input
+                                    type="number"
+                                    name="number_of_guests"
+                                    placeholder="number of guests"
+                                    required
+                                />
+                            </Row>
                             <textarea
                                 rows="5"
                                 name="message"
@@ -82,7 +89,24 @@ export const Contact = () => {
             </Col>
             <Col sm={12} md={4} className={styles.Fees}>
                 <div className={styles.FeesBox}>
-                    
+                    <Row className={styles.ServiceCost}>
+                        <p className={styles.Service}>€500 x 5 night</p>
+                        <p className={styles.Cost}>€2,500</p>
+                    </Row>
+                    <Row className={styles.ServiceCost}>
+                        <p className={styles.Service}>Cleaning fee</p>
+                        <p className={styles.Cost}>€80</p>
+                    </Row>
+                    <Row className={styles.ServiceCost}>
+                        <p className={styles.Service}>Deposit</p>
+                        <p className={styles.Cost}>€1,000</p>
+                    </Row>
+                    <hr />
+                    <Row className={styles.ServiceCost}>
+                        <strong><p className={styles.Service}>Total</p></strong>
+                        <strong><p className={styles.Cost}>€3,580</p></strong>
+                    </Row>
+                    <p>* 5 night minimum stay</p>
                 </div>
             </Col>
         </Row>
