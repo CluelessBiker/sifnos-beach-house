@@ -37,3 +37,10 @@ h3 {
     border-radius: 100px;
     padding: 0 20px;
 }
+
+/* PRICE BOX */
+.FeesBox {
+    border: 1px solid #F6EFEE;
+    border-radius: 10px;
+    height: 400px;
+}
