@@ -1,3 +1,16 @@
 .Container {
     width: 100%;
 }
+
+h1, h2, h3, h4, h5, p {
+    color: #2B689C;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Amatic SC', cursive;
+}
+
+p {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
