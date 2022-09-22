@@ -11,17 +11,15 @@
 }
 
 .Header h1 {
-    font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
     font-size: 2.5em;
-    color: #2B689C;
     text-align: left;
 }
 
 /* NAVLINKS */
 .NavLink{
-    color: #2B689C;
     font-family: 'Amatic SC', cursive;
+    color: #2B689C;
     font-size: 2em;
     font-weight: 700;
     text-align: right;
