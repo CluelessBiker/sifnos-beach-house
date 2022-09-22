@@ -1,7 +1,10 @@
 /* FONTS */
 h3 {
     font-size: 2em;
-    font-family: 'Amatic SC', cursive;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 /* FORM CONTAINER */
@@ -15,6 +18,7 @@ h3 {
 /* FORM FIELDS */
 .Form {
     text-align: center;
+    margin: 0 auto;
 }
 
 .Form input,
@@ -24,7 +28,9 @@ h3 {
     border-radius: 5px;
     text-align: center;
     font-size: 1.2em;
-    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Lato', sans-serif;
+    color: #2B689C;
 }
 
 .Form textarea {
@@ -43,4 +49,9 @@ h3 {
     border: 1px solid #F6EFEE;
     border-radius: 10px;
     height: 400px;
+    padding: 40px;
+}
+
+.ServiceCost {
+    justify-content: space-between;
 }
