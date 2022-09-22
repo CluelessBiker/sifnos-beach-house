@@ -52,13 +52,13 @@ function NavBar() {
                         </NavLink>
 
                         <NavLink
-                            to="/location"
+                            to="/neighborhood"
                             className={styles.NavLink}
                             activeClassName={styles.Active}
                             aria-label="user posts"
                             rel="noreferrer"
                         >
-                            Location
+                            Neighborhood
                         </NavLink>
 
                         <NavLink
