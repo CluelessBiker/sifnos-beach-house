@@ -14,13 +14,13 @@
     font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
     font-size: 2.5em;
-    color: #3a3a3a;
+    color: #2B689C;
     text-align: left;
 }
 
 /* NAVLINKS */
 .NavLink{
-    color: #3a3a3a;
+    color: #2B689C;
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     font-weight: 700;
@@ -29,12 +29,12 @@
 }
 
 .NavLink:hover{
-    color: #4D0307;
+    color: #3A3A3A;
     text-decoration: none;
 }
 
 .Active{
-    color: #982036;
+    color: #3A3A3A;
 }
 
 /* .PageTitles {
