@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import ToggleCollapse from '../hooks/ToggleCollapse';
 import styles from '../styles/NavBar.module.css';
@@ -11,7 +11,7 @@ function NavBar() {
     const { expanded, setExpanded, ref } = ToggleCollapse();
 
     return (
-        <Container className={styles.NavContainer}>
+        <div className={styles.NavContainer}>
             <Navbar
                 expand="sm"
                 expanded={expanded}
@@ -83,7 +83,7 @@ function NavBar() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </Container>
+        </div>
     );
 }
 
