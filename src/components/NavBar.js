@@ -17,11 +17,13 @@ function NavBar() {
                 expanded={expanded}
                 sticky="top"
             >
+
                 <Link to="/" className={styles.Header}>
                     <Navbar.Brand>
                         <h1>Sifnos Beach House</h1>
                     </Navbar.Brand>
                 </Link>
+
 
                 <Navbar.Toggle
                     ref={ref}
@@ -29,7 +31,8 @@ function NavBar() {
                 />
 
                 <Navbar.Collapse>
-                    <Nav className={styles.PageTitles}>
+                    <Nav className={`${styles.PageTitles} ml-auto text-left`}>
+
                         <NavLink
                             exact
                             to="/"
@@ -80,6 +83,7 @@ function NavBar() {
                         >
                             Contact
                         </NavLink>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
