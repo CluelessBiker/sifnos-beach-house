@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.MainSiteContent {
+    margin-top: 135px;
+}
+
 h1, h2, h3, h4, h5, p {
     color: #2B689C;
 }
