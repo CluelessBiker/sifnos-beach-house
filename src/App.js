@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Contact from './pages/Contact';
@@ -10,7 +10,7 @@ import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <Container className={styles.Container}>
+    <div className={styles.SiteContainer}>
       <Col sm={12}>
         <NavBar />
       </Col>
@@ -25,7 +25,7 @@ function App() {
       <Row>
         <Footer />
       </Row>
-    </Container>
+    </div>
   );
 }
 
