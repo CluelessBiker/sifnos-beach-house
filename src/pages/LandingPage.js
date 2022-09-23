@@ -4,9 +4,9 @@ import styles from '../styles/LandingPage.module.css';
 
 function LandingPage() {
     return (
-        <Container>
+        <div>
             <div className={styles.HeroImage}></div>
-        </Container>
+        </div>
     )
 }
 
