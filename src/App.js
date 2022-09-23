@@ -1,10 +1,11 @@
 /* eslint-disable */
-import { Col, Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Contact from './pages/Contact';
 import styles from './App.module.css';
 import Neighborhood from './pages/Neighborhood';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Route exact path="/contact" render={() => <Contact />} />
         <Route render={() => <h3>Page Not Found.</h3>} />
       </Switch>
+      <Row>
+        <Footer />
+      </Row>
     </Container>
   );
 }
