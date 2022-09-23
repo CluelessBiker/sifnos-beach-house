@@ -11,11 +11,13 @@ function NavBar() {
     const { expanded, setExpanded, ref } = ToggleCollapse();
 
     return (
-        <div className={styles.NavContainer}>
+        <div>
             <Navbar
                 expand="sm"
                 expanded={expanded}
-                sticky="top"
+                // sticky="top"
+                fixed="top"
+                className={styles.NavContainer}
             >
 
                 <Link to="/" className={styles.Header}>
