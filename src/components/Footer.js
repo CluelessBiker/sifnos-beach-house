@@ -4,7 +4,7 @@ import styles from '../styles/Footer.module.css';
 
 function Footer() {
     return (
-        <Container>
+        <Container className={styles.SocialIcons}>
             <Row className={styles.SocialIconsAlign}>
                 <a
                     href="https://facebook.com"
