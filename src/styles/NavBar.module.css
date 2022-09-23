@@ -1,7 +1,8 @@
 /* NAVBAR */
 .NavContainer {
-    width: 100%;
+    width: 90%;
     background-color: #FFFFFF;
+    margin: 0 auto;
 }
 
 /* LOGO */
@@ -34,14 +35,21 @@
     color: #3A3A3A;
 }
 
+@media screen and (max-width:920px) {
+    .NavLink {
+        font-size: 1.4em;
+    }
+}
+
 @media screen and (max-width:767px) {
     /* HEADER */
     .Header h1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .NavLink {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        padding: 3px;
     }
 }
 
