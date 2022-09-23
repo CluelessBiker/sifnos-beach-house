@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import styles from './App.module.css';
 import Neighborhood from './pages/Neighborhood';
 import Footer from './components/Footer';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <NavBar />
       </Col>
       <Switch>
-        <Route exact path="/" render={() => <h1>HELLO WORLD</h1>} />
+        <Route exact path="/" render={() => <LandingPage />} />
         <Route exact path="/accommodation" render={() => <h1>ACCOMMODATION</h1>} />
         <Route exact path="/neighborhood" render={() => <Neighborhood />} />
         <Route exact path="/gallery" render={() => <h1>GALLERY</h1>} />
