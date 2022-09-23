@@ -2,7 +2,6 @@
 .NavContainer {
     width: 100%;
     background-color: #FFFFFF;
-    justify-content: space-between;
 }
 
 /* LOGO */
@@ -34,11 +33,6 @@
 .Active{
     color: #3A3A3A;
 }
-
-/* .PageTitles {
-    display: flex;
-    justify-content: right;
-} */
 
 @media screen and (max-width:767px) {
     /* HEADER */
