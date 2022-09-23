@@ -1,3 +1,7 @@
+.HomeContainer {
+    width: 100%;
+}
+
 .HeroImage {
     background: url("../assets/images/pexels-luke-webb-2783619.jpg") no-repeat;
     height: 600px;

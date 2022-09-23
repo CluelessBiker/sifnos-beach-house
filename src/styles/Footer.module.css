@@ -1,6 +1,7 @@
 .SocialIcons {
     position: fixed;
     bottom: 0;
+    right: 0;
     justify-content: center;
     width: 100%;
     height: 100px;

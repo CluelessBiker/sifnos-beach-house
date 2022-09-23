@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { Col, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Contact from './pages/Contact';
@@ -11,17 +11,19 @@ import LandingPage from './pages/LandingPage';
 function App() {
   return (
     <div className={styles.SiteContainer}>
-      <Col sm={12}>
+      <div>
         <NavBar />
-      </Col>
-      <Switch>
-        <Route exact path="/" render={() => <LandingPage />} />
-        <Route exact path="/accommodation" render={() => <h1>ACCOMMODATION</h1>} />
-        <Route exact path="/neighborhood" render={() => <Neighborhood />} />
-        <Route exact path="/gallery" render={() => <h1>GALLERY</h1>} />
-        <Route exact path="/contact" render={() => <Contact />} />
-        <Route render={() => <h3>Page Not Found.</h3>} />
-      </Switch>
+      </div>
+      <div className={styles.MainSiteContent}>
+        <Switch>
+          <Route exact path="/" render={() => <LandingPage />} />
+          <Route exact path="/accommodation" render={() => <h1>ACCOMMODATION</h1>} />
+          <Route exact path="/neighborhood" render={() => <Neighborhood />} />
+          <Route exact path="/gallery" render={() => <h1>GALLERY</h1>} />
+          <Route exact path="/contact" render={() => <Contact />} />
+          <Route render={() => <h3>Page Not Found.</h3>} />
+        </Switch>
+      </div>
       <Row>
         <Footer />
       </Row>

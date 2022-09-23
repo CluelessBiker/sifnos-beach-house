@@ -6,7 +6,7 @@
 }
 
 .MainSiteContent {
-    margin-top: 135px;
+    margin-top: 95px;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -26,6 +26,6 @@ p {
 @media screen and (max-width:767px) {
     /* SITE BODY CONTENT */
     .MainSiteContent {
-        margin-top: 115px;
+        margin-top: 73px;
     }
 }
