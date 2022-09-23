@@ -1,0 +1,38 @@
+.SocialIcons {
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.SocialIcons a {
+    margin: 20px;
+}
+
+.SocialIconsAlign {
+    justify-content: center;
+}
+
+.SocialIconsAlign a i:hover {
+    background-color: #F6EFEE;
+}
+
+.SocialIconsAlign a i {
+    width: 35px;
+    height: 35px;
+    padding: 12px 0;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 9px;
+    margin: 2px 0;
+    text-align: center;
+    color: #2B689C;
+    background-color: #FFFFFF;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
