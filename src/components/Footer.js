@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import styles from '../styles/Footer.module.css';
 
 function Footer() {
     return (
-        <Container className={styles.SocialIcons}>
+        <div className={styles.SocialIcons}>
             <Row className={styles.SocialIconsAlign}>
                 <a
                     href="https://facebook.com"
@@ -24,7 +24,7 @@ function Footer() {
                     <i className="fa-brands fa-instagram" />
                 </a>
             </Row>
-        </Container>
+        </div>
     )
 }
 
