@@ -22,3 +22,10 @@ p {
     font-weight: 300;
 }
 /* font-family: 'Roboto', sans-serif; */
+
+@media screen and (max-width:767px) {
+    /* SITE BODY CONTENT */
+    .MainSiteContent {
+        margin-top: 115px;
+    }
+}
