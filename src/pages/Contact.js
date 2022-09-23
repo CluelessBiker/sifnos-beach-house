@@ -52,19 +52,19 @@ export const Contact = () => {
                                 <input
                                     type="date"
                                     name="arrival_date"
-                                    placeholder="arrival"
+                                    placeholder="arrival*"
                                     required
                                 />
                                 <input
                                     type="date"
                                     name="departure_date"
-                                    placeholder="departure"
+                                    placeholder="departure*"
                                     required
                                 />
                                 <input
                                     type="number"
                                     name="number_of_guests"
-                                    placeholder="number of guests"
+                                    placeholder="number of guests*"
                                     required
                                 />
                             </Row>
@@ -73,7 +73,7 @@ export const Contact = () => {
                                 name="message"
                                 id="projectsummary"
                                 className="form-control"
-                                placeholder="message"
+                                placeholder="message*"
                                 required
                             ></textarea>
                             <Col>
