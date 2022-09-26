@@ -7,6 +7,7 @@ import styles from './App.module.css';
 import Neighborhood from './pages/Neighborhood';
 import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
+import Accommodation from './pages/Accommodation';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <div className={styles.MainSiteContent}>
         <Switch>
           <Route exact path="/" render={() => <LandingPage />} />
-          <Route exact path="/accommodation" render={() => <h1>ACCOMMODATION</h1>} />
+          <Route exact path="/accommodation" render={() => <Accommodation />} />
           <Route exact path="/neighborhood" render={() => <Neighborhood />} />
           <Route exact path="/gallery" render={() => <h1>GALLERY</h1>} />
           <Route exact path="/contact" render={() => <Contact />} />
