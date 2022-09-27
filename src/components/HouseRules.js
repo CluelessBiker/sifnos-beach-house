@@ -8,17 +8,17 @@ function HouseRules() {
             <Row>
                 <Col xs={12} sm={4}>
                     <h4>House Rules:</h4>
-                    <p>Check-in: After 11:00</p>
-                    <p>Check-out: Before 13:00</p>
-                    <p>No Smoking</p>
-                    <p>No Pets</p>
-                    <p>No parties/events</p>
+                    <p><i className="fa-regular fa-clock" /> Check-in: After 11:00</p>
+                    <p><i className="fa-regular fa-clock" /> Check-out: Before 13:00</p>
+                    <p><i className="fa-solid fa-ban-smoking" /> No Smoking</p>
+                    <p><i className="fa-solid fa-paw" /> No Pets</p>
+                    <p><i className="fa-solid fa-champagne-glasses" /> No parties/events</p>
                 </Col>
 
                 <Col xs={12} sm={4}>
                     <h4>Health & Safety:</h4>
-                    <p>Carbon Monoxide Detector: No</p>
-                    <p>Smoke Alarm: No</p>
+                    <p><i className="fa-solid fa-circle-exclamation" /> Carbon Monoxide Detector: No</p>
+                    <p><i className="fa-solid fa-circle-exclamation" /> Smoke Alarm: No</p>
                 </Col>
 
                 <Col xs={12} sm={4}>
