@@ -5,8 +5,6 @@ function LandingPage() {
     return (
         <div className={styles.HomeContainer}>
             <div className={styles.HeroImage}></div>
-            <div className={styles.HeroImage}></div>
-            <div className={styles.HeroImage}></div>
         </div>
     )
 }
