@@ -8,15 +8,15 @@ function Amenities() {
         <div>
             <h3>AMENITIES</h3>
 
-            <Row>
-                <Col>
+            <Row className={styles.AmenitiesLists}>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Scenic Views</h4>
                     <p>Beach view</p>
                     <p>Sea view</p>
                     <p>Mountain view</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Bathroom</h4>
                     <Row>
                         <img src={hairdryer} alt="hairdryer" className={styles.Icons} />
@@ -28,7 +28,7 @@ function Amenities() {
                     <p>Hot water</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Bedroom & Laundry</h4>
                     <p>Bed Linens</p>
                     <p>Extra pillows & blankets</p>
@@ -41,30 +41,30 @@ function Amenities() {
                     <p>Safe</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Family</h4>
                     <p>Crib</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Heating & Cooling</h4>
                     <p>Air conditioning</p>
                     <p>Heating</p>
                     <p>Ceiling fans</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Home Safety</h4>
                     <p>Fire extinguisher</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Internet & Office</h4>
                     <p>WiFi</p>
                     <p>Landline</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Kitchen & Dining</h4>
                     <p>Kitchen</p>
                     <p>Refridgerator</p>
@@ -77,7 +77,7 @@ function Amenities() {
                     <p>Dining table</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Location & Features</h4>
                     <p>Waterfront</p>
                     <p>Beach access</p>
@@ -86,24 +86,23 @@ function Amenities() {
                     <p>Local dining, cocktails & coffee shops</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Outdoor</h4>
                     <p>Private patio & balcony</p>
                     <p>Beach towels</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Parking</h4>
                     <p>Free street parking</p>
                 </Col>
 
-                <Col>
+                <Col xs={6} sm={4} md={3} lg={1}>
                     <h4>Services</h4>
                     <p>Luggage dropoff allowed</p>
                     <p>Long-term stays allowed</p>
                 </Col>
 
-                <div className={styles.Textbox}></div>
             </Row>
         </div>
     )
