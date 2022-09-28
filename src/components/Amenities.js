@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import styles from '../styles/Amenities.module.css';
-import hairdryer from '../assets/icons/hairdryer.png';
+// import hairdryer from '../assets/icons/hairdryer.png';
 
 function Amenities() {
     return (
@@ -9,67 +9,68 @@ function Amenities() {
             <h3>AMENITIES</h3>
 
             <Row className={styles.AmenitiesLists}>
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Scenic Views</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-mountain-sun" /><strong> Scenic Views</strong></h4>
                     <p>Beach view</p>
                     <p>Sea view</p>
                     <p>Mountain view</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Heating & Cooling</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-fan" /><strong> Heating & Cooling</strong></h4>
                     <p>Air conditioning</p>
                     <p>Heating</p>
                     <p>Ceiling fans</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Internet & Office</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-wifi" /><strong> Internet & Office</strong></h4>
                     <p>WiFi</p>
                     <p>Landline</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Outdoor</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-cloud-sun" /><strong> Outdoor</strong></h4>
                     <p>Private patio & balcony</p>
                     <p>Beach towels</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Family</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-baby" /><strong> Family</strong></h4>
                     <p>Crib</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Parking</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-car" /><strong> Parking</strong></h4>
                     <p>Free street parking</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Home Safety</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-fire-extinguisher" /><strong> Home Safety</strong></h4>
                     <p>Fire extinguisher</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Services</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-suitcase" /><strong> Services</strong></h4>
                     <p>Luggage dropoff allowed</p>
                     <p>Long-term stays allowed</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Bathroom</strong></h4>
-                    <Row>
-                        {/* <img src={hairdryer} alt="hairdryer" className={styles.Icons} /> */}
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-sink" /><strong> Bathroom</strong></h4>
+                    {/* <Row>
+                        <img src={hairdryer} alt="hairdryer" className={styles.Icons} />
                         <p>Hair dryer</p>
-                    </Row>
+                    </Row> */}
+                    <p>Hair dryer</p>
                     <p>Shampoo</p>
                     <p>Shower gel</p>
                     <p>Outdoor shower</p>
                     <p>Hot water</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Bedroom & Laundry</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-bed" /><strong> Bedroom & Laundry</strong></h4>
                     <p>Bed Linens</p>
                     <p>Extra pillows & blankets</p>
                     <p>Room-darkening shades</p>
@@ -81,8 +82,8 @@ function Amenities() {
                     <p>Safe</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Kitchen & Dining</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-kitchen-set" /><strong> Kitchen & Dining</strong></h4>
                     <p>Kitchen</p>
                     <p>Refridgerator</p>
                     <p>Oven</p>
@@ -94,8 +95,8 @@ function Amenities() {
                     <p>Dining table</p>
                 </Col>
 
-                <Col xs={6} sm={4} md={3}>
-                    <h4><strong>Location & Features</strong></h4>
+                <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
+                    <h4><i className="fa-solid fa-location-dot" /><strong> Location & Features</strong></h4>
                     <p>Waterfront</p>
                     <p>Beach access</p>
                     <p>Private entrance</p>
