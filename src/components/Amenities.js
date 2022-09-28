@@ -25,7 +25,7 @@ function Amenities() {
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-wifi" /><strong> Internet & Office</strong></h4>
                     <p>WiFi</p>
-                    <p>Landline</p>
+                    {/* <p>Landline</p> */}
                 </Col>
 
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
@@ -60,6 +60,7 @@ function Amenities() {
                     <p>Hair dryer</p>
                     <p>Shampoo</p>
                     <p>Shower gel</p>
+                    <p>Toilet paper</p>
                     <p>Outdoor shower</p>
                     <p>Hot water</p>
                 </Col>
@@ -68,8 +69,8 @@ function Amenities() {
                     <h4><i className="fa-solid fa-bed" /><strong> Bedroom & Laundry</strong></h4>
                     <p>Bed Linens</p>
                     <p>Extra pillows & blankets</p>
-                    <p>Room-darkening shades</p>
-                    <p>Clothin storage</p>
+                    {/* <p>Room-darkening shades</p> */}
+                    <p>Clothing storage</p>
                     <p>Hangers</p>
                     <p>Towels</p>
                     <p>Laundry rack</p>
@@ -79,8 +80,8 @@ function Amenities() {
 
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-kitchen-set" /><strong> Kitchen & Dining</strong></h4>
-                    <p>Kitchen</p>
                     <p>Refridgerator</p>
+                    <p>Stove top</p>
                     <p>Oven</p>
                     <p>Coffee machine</p>
                     <p>Kettle</p>
@@ -95,7 +96,7 @@ function Amenities() {
                     <p>Waterfront</p>
                     <p>Beach access</p>
                     <p>Private entrance</p>
-                    <p>Resort access</p>
+                    {/* <p>Resort access</p> */}
                     <p>Restaurants</p>
                     <p>Cocktail bars</p>
                     <p>Coffee shops</p>
