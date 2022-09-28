@@ -8,8 +8,8 @@ function HouseRules() {
             <Row>
                 <Col xs={12} sm={4}>
                     <h4>House Rules:</h4>
-                    <p><i className="fa-regular fa-clock" /> Check-in: After 11:00</p>
-                    <p><i className="fa-regular fa-clock" /> Check-out: Before 13:00</p>
+                    <p><i className="fa-regular fa-clock" /> Check-in: 16:00 to 21:00</p>
+                    <p><i className="fa-regular fa-clock" /> Check-out: 10:00</p>
                     <p><i className="fa-solid fa-ban-smoking" /> No Smoking</p>
                     <p><i className="fa-solid fa-paw" /> No Pets</p>
                     <p><i className="fa-solid fa-champagne-glasses" /> No parties/events</p>
@@ -24,8 +24,8 @@ function HouseRules() {
                 <Col xs={12} sm={4}>
                     <h4>Cancellation Policy:</h4>
                     <p>Full refund within 48h from the time the reservation was made.</p>
-                    <p>50% refund with two weeks notice.</p>
-                    <p>No refund.</p>
+                    <p>+ 30 days: 50% refund</p>
+                    <p>30 days or less: No refund.</p>
                 </Col>
             </Row>
         </div>
