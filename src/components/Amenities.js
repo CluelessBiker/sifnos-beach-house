@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import styles from '../styles/Amenities.module.css';
-// import hairdryer from '../assets/icons/hairdryer.png';
 
 function Amenities() {
     return (
@@ -58,10 +57,6 @@ function Amenities() {
 
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-sink" /><strong> Bathroom</strong></h4>
-                    {/* <Row>
-                        <img src={hairdryer} alt="hairdryer" className={styles.Icons} />
-                        <p>Hair dryer</p>
-                    </Row> */}
                     <p>Hair dryer</p>
                     <p>Shampoo</p>
                     <p>Shower gel</p>
