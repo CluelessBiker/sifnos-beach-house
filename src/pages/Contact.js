@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { Col, Row } from 'react-bootstrap';
 import styles from '../styles/Contact.module.css';
 import { useHistory } from 'react-router-dom';
+import pdf from '../assets/documents/leasecontract.pdf';
 
 export const Contact = () => {
     const form = useRef();
@@ -107,6 +108,14 @@ export const Contact = () => {
                         <strong><p className={styles.Cost}>€3,580</p></strong>
                     </Row>
                     <p>* 5 night minimum stay</p>
+                    <a
+                        href={pdf}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Rental contract"
+                    >
+                        <span><i className="fa-solid fa-download" aria-hidden="true"></i> Rental Contract</span>
+                    </a>
                 </div>
             </Col>
         </Row>
