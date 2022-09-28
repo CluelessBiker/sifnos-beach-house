@@ -113,8 +113,9 @@ export const Contact = () => {
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Rental contract"
+                        className={styles.RentalLease}
                     >
-                        <span><i className="fa-solid fa-download" aria-hidden="true"></i> Rental Contract</span>
+                        <i className="fa-solid fa-download" aria-hidden="true" /> Rental Contract
                     </a>
                 </div>
             </Col>

@@ -54,3 +54,10 @@ p {
 .ServiceCost {
     justify-content: space-between;
 }
+
+/* RENTAL CONTRACT */
+.RentalLease {
+    color: #2B689C;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
