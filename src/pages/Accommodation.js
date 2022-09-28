@@ -8,19 +8,21 @@ function Accommodation(){
     return(
         <div>
             <Row>
-                <Col md={6}>
-                    <div className={styles.Image}></div>
+                <Col md={6} className={styles.ImageCol}>
+                    <div className={styles.ImageLG}></div>
                 </Col>
                 <Col md={6}>
                     <Row>
-                        <div className={styles.Image}></div>
+                        <Col md={12} className={styles.ImageCol}>
+                            <div className={styles.ImageMD}></div>
+                        </Col>
                     </Row>
                     <Row>
-                        <Col md={6}>
-                            <div className={styles.Image}></div>
+                        <Col md={6} className={styles.ImageCol}>
+                            <div className={styles.ImageSM}></div>
                         </Col>
-                        <Col md={6}>
-                            <div className={styles.Image}></div>
+                        <Col md={6} className={styles.ImageCol}>
+                            <div className={styles.ImageSM}></div>
                         </Col>
                     </Row>
                 </Col>
