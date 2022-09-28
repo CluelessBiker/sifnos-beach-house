@@ -83,7 +83,9 @@ function Amenities() {
                     <p>Beach access</p>
                     <p>Private entrance</p>
                     <p>Resort access</p>
-                    <p>Local dining, cocktails & coffee shops</p>
+                    <p>Restaurants</p>
+                    <p>Cocktail bars</p>
+                    <p>Coffee shops</p>
                 </Col>
 
                 <Col xs={6} sm={4} md={3} lg={1}>
