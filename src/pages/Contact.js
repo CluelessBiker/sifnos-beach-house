@@ -91,23 +91,23 @@ export const Contact = () => {
             <Col sm={12} md={4} className={styles.Fees}>
                 <div className={styles.FeesBox}>
                     <Row className={styles.ServiceCost}>
-                        <p className={styles.Service}>€500 x 5 night</p>
+                        <p className={styles.Service}>€799 x 5 night</p>
                         <p className={styles.Cost}>€2,500</p>
                     </Row>
                     <Row className={styles.ServiceCost}>
                         <p className={styles.Service}>Cleaning fee</p>
-                        <p className={styles.Cost}>€80</p>
+                        <p className={styles.Cost}>€195</p>
                     </Row>
                     <Row className={styles.ServiceCost}>
                         <p className={styles.Service}>Deposit</p>
-                        <p className={styles.Cost}>€1,000</p>
+                        <p className={styles.Cost}>€1,500</p>
                     </Row>
                     <hr />
                     <Row className={styles.ServiceCost}>
                         <strong><p className={styles.Service}>Total</p></strong>
-                        <strong><p className={styles.Cost}>€3,580</p></strong>
+                        <strong><p className={styles.Cost}>€5,690</p></strong>
                     </Row>
-                    <p>* 5 night minimum stay</p>
+                    <p>*5 night minimum</p>
                     <a
                         href={pdf}
                         target="_blank"
