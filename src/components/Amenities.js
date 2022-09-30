@@ -57,6 +57,7 @@ function Amenities() {
 
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-sink" /><strong> Bathroom</strong></h4>
+                    <p>3 Bathrooms - open floor shower</p>
                     <p>Hair dryer</p>
                     <p>Shampoo</p>
                     <p>Shower gel</p>
@@ -67,7 +68,9 @@ function Amenities() {
 
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-bed" /><strong> Bedroom & Laundry</strong></h4>
-                    <p>Bed Linens</p>
+                    <p>4 Bedrooms</p>
+                    <p>4 Queen size beds - COCOMAT</p>
+                    <p>Bed Linens - 100% cotton</p>
                     <p>Extra pillows & blankets</p>
                     {/* <p>Room-darkening shades</p> */}
                     <p>Clothing storage</p>
