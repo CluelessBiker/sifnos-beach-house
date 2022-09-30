@@ -10,10 +10,11 @@ function Neighborhood () {
                 className={styles.GoogleMap}
                 id="gmap"
                 title="Platys Gialos, Syros"
-                src="https://maps.google.com/maps?q=platys%20gialos%20sifnos&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                // src="https://maps.google.com/maps?q=platys%20gialos%20sifnos&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=platys%20gyalos%20sifnos&t=&z=15&ie=UTF8&iwloc=&output=embed"
             ></iframe>
-        </div>
 
+         </div>
     )
 }
 
