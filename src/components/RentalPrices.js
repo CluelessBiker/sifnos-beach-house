@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import styles from '../styles/RentalPrices.module.css';
-import pdf from '../assets/documents/leasecontract.pdf';
+// import pdf from '/pdfs/leasecontract.pdf';
 import { Link } from 'react-router-dom';
 
 // const RentalPrices = () => {
@@ -51,7 +51,7 @@ function RentalPrices() {
                 {/* <button onClick={onButtonClick}>
                     <i className="fa-solid fa-download" aria-hidden="true" /> Download Rental Contract
                 </button> */}
-                <Link to={pdf} target="_blank">Download</Link>
+                <Link to="/pdfs/leasecontract.pdf" target="_blank">Download</Link>
             </div>
         </Col>
     );
