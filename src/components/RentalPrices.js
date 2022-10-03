@@ -21,7 +21,7 @@ const RentalPrices = () => {
             <div className={styles.FeesBox}>
                 <Row className={styles.ServiceCost}>
                     <p className={styles.Service}>€799 x 5 night</p>
-                    <p className={styles.Cost}>€2,500</p>
+                    <p className={styles.Cost}>€3,995</p>
                 </Row>
                 <Row className={styles.ServiceCost}>
                     <p className={styles.Service}>Cleaning fee</p>
