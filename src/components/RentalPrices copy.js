@@ -3,18 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import styles from '../styles/RentalPrices.module.css';
 import pdf from '../assets/documents/leasecontract.pdf';
 
-const RentalPrices = () => {
-    const onButtonClick = () => {
-        fetch('{pdf}').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObject
-                let alink = document.createElement('a')
-                alink.href = fileURL;
-                alink.download = 'pdf';
-                alink.click();
-            })
-        })
-    }
+function RentalPrices() {
 
     return (
         <Col sm={12} md={4} className={styles.Fees}>
@@ -37,7 +26,7 @@ const RentalPrices = () => {
                     <strong><p className={styles.Cost}>€5,690</p></strong>
                 </Row>
                 <p>*5 night minimum</p>
-                {/* <a
+                <a
                     href={pdf}
                     target="_blank"
                     rel="noreferrer"
@@ -45,10 +34,7 @@ const RentalPrices = () => {
                     className={styles.RentalLease}
                 >
                     <i className="fa-solid fa-download" aria-hidden="true" /> Rental Contract
-                </a> */}
-                <button onClick={onButtonClick}>
-                    <i className="fa-solid fa-download" aria-hidden="true" /> Download Rental Contract
-                </button>
+                </a>
             </div>
         </Col>
     );
