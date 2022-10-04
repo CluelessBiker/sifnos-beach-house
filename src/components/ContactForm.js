@@ -26,7 +26,7 @@ export const ContactForm = () => {
             <Row>
                 <Col className={styles.Form}>
                     <form ref={form} onSubmit={sendEmail}>
-                        <Row>
+                        <Row className={styles.FormRows}>
                             <input
                                 type="text"
                                 name="from_name"
@@ -46,7 +46,7 @@ export const ContactForm = () => {
                                 required
                             />
                         </Row>
-                        <Row>
+                        <Row  className={styles.FormRows}>
                             <input
                                 type="date"
                                 name="arrival_date"
