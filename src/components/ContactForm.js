@@ -26,7 +26,7 @@ export const ContactForm = () => {
             <Row>
                 <Col className={styles.Form}>
                     <form ref={form} onSubmit={sendEmail}>
-                        <Row className={styles.FormRows}>
+                        {/* <Row className={styles.FormRows}>
                             <input
                                 type="text"
                                 name="from_name"
@@ -65,7 +65,59 @@ export const ContactForm = () => {
                                 placeholder="number of guests*"
                                 required
                             />
+                        </Row> */}
+
+                        <Row>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="text"
+                                    name="from_name"
+                                    placeholder="full name*"
+                                    required
+                                />
+                            </Col>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="email"
+                                    name="from_email"
+                                    placeholder="email*"
+                                    required
+                                />
+                            </Col>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="tel"
+                                    name="from_number"
+                                    placeholder="phone number*"
+                                    required
+                                />
+                            </Col>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="number"
+                                    name="number_of_guests"
+                                    placeholder="number of guests*"
+                                    required
+                                />
+                            </Col>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="date"
+                                    name="arrival_date"
+                                    placeholder="arrival*"
+                                    required
+                                />
+                            </Col>
+                            <Col sm={6} md={4}>
+                                <input
+                                    type="date"
+                                    name="departure_date"
+                                    placeholder="departure*"
+                                    required
+                                />
+                            </Col>
                         </Row>
+                            
                         <textarea
                             rows="5"
                             name="message"
