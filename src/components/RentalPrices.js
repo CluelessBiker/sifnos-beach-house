@@ -21,6 +21,7 @@ function RentalPrices() {
     return (
         <Col sm={12} md={4} className={styles.Fees}>
             <div className={styles.FeesBox}>
+                <h3>Pricing</h3> 
                 <Row className={styles.ServiceCost}>
                     <p className={styles.Service}>€799 x 5 night</p>
                     <p className={styles.Cost}>€3,995</p>
