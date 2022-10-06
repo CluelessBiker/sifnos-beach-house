@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import Amenities from '../components/Amenities';
-import HouseRules from '../components/HouseRules';
-import styles from '../styles/Accommodation.module.css'
+import Amenities from './Amenities';
+import HouseRules from './HouseRules';
+import styles from '../../styles/Accommodation.module.css'
 
 function Accommodation(){
     return(

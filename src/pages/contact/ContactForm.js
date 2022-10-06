@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Col, Row } from 'react-bootstrap';
-import styles from '../styles/ContactForm.module.css';
+import styles from '../../styles/ContactForm.module.css';
 import { useHistory } from 'react-router-dom';
 
 export const ContactForm = () => {

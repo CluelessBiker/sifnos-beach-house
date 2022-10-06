@@ -2,14 +2,14 @@
 import { Row } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Contact from './pages/Contact';
+import Contact from './pages/contact/Contact';
 import styles from './App.module.css';
 import Neighborhood from './pages/Neighborhood';
 import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
-import Accommodation from './pages/Accommodation';
+import Accommodation from './pages/accommodation/Accommodation';
 import Gallery from './pages/Gallery';
-import Lease from './pages/Lease';
+import Lease from './pages/lease/Lease';
 
 function App() {
   return (
