@@ -8,8 +8,8 @@ import Neighborhood from './pages/Neighborhood';
 import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
 import Accommodation from './pages/Accommodation';
-import Lease from './pages/Lease';
 import Gallery from './pages/Gallery';
+import Contract from './components/Contract';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/neighborhood" render={() => <Neighborhood />} />
           <Route exact path="/gallery" render={() => <Gallery />} />
           <Route exact path="/contact" render={() => <Contact />} />
-          <Route exact path="/lease" render={() => <Lease />} />
+          <Route exact path="/contract" render={() => <Contract />} />
           <Route render={() => <h3>Page Not Found.</h3>} />
         </Switch>
       </div>
