@@ -3,9 +3,6 @@ import { Row } from 'react-bootstrap';
 import ContactForm from '../components/ContactForm';
 import RentalPrices from '../components/RentalPrices';
 
-import SinglePagePDF from "../components/SinglePagePDF";
-import samplePDF from "../assets/documents/leasecontract.pdf";
-
 function Contact() {
 
     return (
@@ -15,7 +12,6 @@ function Contact() {
                 <ContactForm />
                 <RentalPrices />
             </Row>
-            <SinglePagePDF pdf={samplePDF} />
         </div>
     );
 }
