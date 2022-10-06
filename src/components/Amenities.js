@@ -6,7 +6,7 @@ function Amenities() {
     return (
         <div>
             <h3>AMENITIES</h3>
-
+            <br />
             <Row className={styles.AmenitiesLists}>
                 <Col xs={6} sm={4} md={3} className={styles.ListColumns}>
                     <h4><i className="fa-solid fa-mountain-sun" /><strong> Scenic Views</strong></h4>

@@ -5,6 +5,7 @@ function HouseRules() {
     return (
         <div>
             <h3>Things to know</h3>
+            <br />
             <Row>
                 <Col xs={12} sm={4}>
                     <h4><strong>House Rules:</strong></h4>
