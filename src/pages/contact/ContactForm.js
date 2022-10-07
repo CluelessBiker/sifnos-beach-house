@@ -11,7 +11,7 @@ export const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_rn023oh', 'template_tyb208i', form.current, 'E1ixKlLbduurKoiHf')
         .then((result) => {
             console.log(result.text); 
         }, (error) => {
