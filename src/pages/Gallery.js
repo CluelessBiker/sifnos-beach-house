@@ -1,73 +1,28 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
-import styles from '../styles/Accommodation.module.css';
+import { ImageTilesLeft, ImageTilesRight } from '../components/ImageTiles';
+import image from '../assets/images/random.jpg';
 
 function Gallery() {
     return (
         <div>
-            <Row>
-                <Col md={6} className={styles.ImageCol}>
-                    <div className={styles.ImageLG}></div>
-                </Col>
-                <Col md={6}>
-                    <Row>
-                        <Col md={12} className={styles.ImageCol}>
-                            <div className={styles.ImageMD}></div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-
-            <Row>
-                
-                <Col md={6}>
-                <Row>
-                    <Col md={6} className={styles.ImageCol}>
-                        <div className={styles.ImageSM}></div>
-                    </Col>
-                    <Col md={6} className={styles.ImageCol}>
-                        <div className={styles.ImageSM}></div>
-                    </Col>
-                    </Row>
-                    <Row>
-                        <Col md={12} className={styles.ImageCol}>
-                            <div className={styles.ImageMD}></div>
-                        </Col>
-                    </Row>
-                </Col>
-                <Col md={6} className={styles.ImageCol}>
-                    <div className={styles.ImageLG}></div>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col md={6} className={styles.ImageCol}>
-                    <div className={styles.ImageLG}></div>
-                </Col>
-                <Col md={6}>
-                    <Row>
-                        <Col md={12} className={styles.ImageCol}>
-                            <div className={styles.ImageMD}></div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
+            <ImageTilesLeft
+                large={image}
+                medium={image}
+                small1={image}
+                small2={image}
+            />
+            <ImageTilesRight
+                large={image}
+                medium={image}
+                small1={image}
+                small2={image}
+            />
+            <ImageTilesLeft
+                large={image}
+                medium={image}
+                small1={image}
+                small2={image}
+            />
             <br />
             <br />
             <br />
