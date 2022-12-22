@@ -1,0 +1,7 @@
+.TabelCell:first-of-type {
+    text-align: left;
+}
+
+.TabelCell:last-of-type {
+    text-align: right;
+}
