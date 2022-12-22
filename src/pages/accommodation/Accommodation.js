@@ -1,32 +1,18 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { ImageTilesLeft } from '../../components/ImageTiles';
 import Amenities from './Amenities';
 import HouseRules from './HouseRules';
-import styles from '../../styles/Accommodation.module.css'
+import image from '../../assets/images/random.jpg';
 
 function Accommodation(){
     return(
         <div>
-            <Row>
-                <Col md={6} className={styles.ImageCol}>
-                    <div className={styles.ImageLG}></div>
-                </Col>
-                <Col md={6}>
-                    <Row>
-                        <Col md={12} className={styles.ImageCol}>
-                            <div className={styles.ImageMD}></div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                        <Col md={6} className={styles.ImageCol}>
-                            <div className={styles.ImageSM}></div>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
+            <ImageTilesLeft
+                large={image}
+                medium={image}
+                small1={image}
+                small2={image}
+            />
             <br />
             <h3>The Space</h3>
             <br />
