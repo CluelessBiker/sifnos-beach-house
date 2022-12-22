@@ -1,28 +1,22 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import styles from '../styles/Footer.module.css';
+import { SocialLinks } from './SiteLinks';
 
 function Footer() {
     return (
         <div className={styles.SocialIcons}>
             <Row className={styles.SocialIconsAlign}>
-                <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Visit our Facebook page (opens in a new tab)"
-                >
-                    <i className="fa-brands fa-facebook-f" />
-                </a>
-
-                <a
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Visit our Instagram page (opens in a new tab)"
-                >
-                    <i className="fa-brands fa-instagram" />
-                </a>
+                <SocialLinks
+                    link={"https://www.facebook.com"}
+                    socialsite={"facebook"}
+                    icon={<i className="fa-brands fa-facebook-f" />}
+                />
+                <SocialLinks
+                    link={"https://www.instagram.com"}
+                    socialsite={"Instagram"}
+                    icon={<i className="fa-brands fa-instagram" />}
+                />
             </Row>
         </div>
     )
