@@ -1,7 +1,7 @@
 const pricingdata = [
     {
-        service: '€799 x 5 nights',
-        amount: '€3,995',
+        service: 'Daily rate',
+        amount: '€799',
     },
     {
         service: 'Cleaning fee',
@@ -11,10 +11,10 @@ const pricingdata = [
         service: 'Deposit',
         amount: '€1,500',
     },
-    {
-        service: 'Total',
-        amount: '€5,690',
-    },
+    // {
+    //     service: 'Total',
+    //     amount: '€5,690',
+    // },
 ]
 
 export default pricingdata
