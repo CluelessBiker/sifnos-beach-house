@@ -1,8 +1,13 @@
+/* eslint-disable */
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ToggleCollapse from '../hooks/ToggleCollapse';
 import styles from '../styles/NavBar.module.css';
+import { NavbarLinks } from './SiteLinks';
+import navdata from '../assets/data/navdata'
+
+const navlinks = navdata;
 
 /**
  * Navigation bar.
@@ -34,58 +39,9 @@ function NavBar() {
 
                 <Navbar.Collapse>
                     <Nav className={`${styles.PageTitles} ml-auto text-left`}>
-
-                        <NavLink
-                            exact
-                            to="/"
-                            className={styles.NavLink}
-                            activeClassName={styles.Active}
-                            aria-label="home page"
-                            rel="noreferrer"
-                        >
-                            Home
-                        </NavLink>
-
-                        <NavLink
-                            to="/accommodation"
-                            className={styles.NavLink}
-                            activeClassName={styles.Active}
-                            aria-label="events"
-                            rel="noreferrer"
-                        >
-                            Accommodation
-                        </NavLink>
-
-                        <NavLink
-                            to="/neighborhood"
-                            className={styles.NavLink}
-                            activeClassName={styles.Active}
-                            aria-label="user posts"
-                            rel="noreferrer"
-                        >
-                            Neighborhood
-                        </NavLink>
-
-                        <NavLink
-                            to="/gallery"
-                            className={styles.NavLink}
-                            activeClassName={styles.Active}
-                            aria-label="about page"
-                            rel="noreferrer"
-                        >
-                            Gallery
-                        </NavLink>
-
-                        <NavLink
-                            to="/contact"
-                            className={styles.NavLink}
-                            activeClassName={styles.Active}
-                            aria-label="about page"
-                            rel="noreferrer"
-                        >
-                            Contact
-                        </NavLink>
-
+                        {navlinks.map((navlink) => (
+                            <NavbarLinks path={navlink.path} page={navlink.page} exact/>
+                        ))}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
