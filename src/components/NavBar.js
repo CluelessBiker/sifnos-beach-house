@@ -40,7 +40,7 @@ function NavBar() {
                 <Navbar.Collapse>
                     <Nav className={`${styles.PageTitles} ml-auto text-left`}>
                         {navlinks.map((navlink) => (
-                            <NavbarLinks path={navlink.path} page={navlink.page} exact/>
+                            <NavbarLinks key={navlink.id} path={navlink.path} page={navlink.page} exact/>
                         ))}
                     </Nav>
                 </Navbar.Collapse>
