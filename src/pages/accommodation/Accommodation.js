@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageTilesLeft } from '../../components/ImageTiles';
-import Amenities from './Amenities';
-import HouseRules from './HouseRules';
+import Amenities from './components/Amenities';
+import HouseRules from './components/HouseRules';
 import image from '../../assets/images/random.jpg';
 
 function Accommodation(){
