@@ -1,0 +1,16 @@
+/* FORM FIELDS */
+.TextArea {
+    width: 100%;
+    text-align: center;
+    color: #3A3A3A;
+    caret-color: #2B689C;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #F6EFEE;
+}
+
+.TextArea:focus {
+    box-shadow: none;
+    outline: none;
+}

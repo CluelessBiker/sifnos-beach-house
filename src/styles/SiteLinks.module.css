@@ -17,6 +17,17 @@
     color: #3A3A3A;
 }
 
+/* EXTERNAL LINKS */
+.ExternalLinks {
+    font-family: 'Lato', sans-serif;
+    color: #3A3A3A;
+}
+
+.ExternalLinks:hover {
+    color: #2B689C;
+    text-decoration: none;
+}
+
 @media screen and (max-width:920px) {
     .NavLink {
         font-size: 1.4em;

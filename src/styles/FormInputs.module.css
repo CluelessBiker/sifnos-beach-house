@@ -1,0 +1,35 @@
+/* FORM FIELDS */
+.FormInputs {
+    text-align: center;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #F6EFEE;
+    color: #3A3A3A;
+    width: 100%;
+    caret-color: #2B689C;
+}
+
+.FormInputs:last-of-type {
+    margin: 0;
+}
+
+.FormInputs:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* .FormInputs::placeholder {
+    color: red;
+} */
+
+.FormInputs[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0.5;
+    
+}
+
+.FormInputs[type=date]:invalid::-webkit-datetime-edit {
+    color: gray;
+}

@@ -9,52 +9,25 @@ p {
 
 /* FORM CONTAINER */
 .ContactForm {
+    width: 50%;
     margin: auto;
     z-index: 19;
     padding: 20px;
-    border-radius: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #F6EFEE;
+    background-color: #fafafa;
 }
 
-/* INPUT ROWS */
-.FormRows {
-    justify-content: space-evenly;
-}
 
 /* FORM FIELDS */
 .Form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.FormColumn {
+    width: 45%;
     text-align: center;
-    margin: 0 auto;
-}
-
-.Form input,
-.Form textarea,
-.Form button {
-    margin: 0 5px 15px 5px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
-    border: 1px solid #F6EFEE;
-}
-
-.Form input,
-.Form textarea {
-    color: #3A3A3A;
-}
-
-.Form input {
-    width: 90%;
-}
-
-.Form textarea {
-    width: 90%;
-    height: 240px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.Form button {
-    border-radius: 100px;
-    padding: 0 20px;
-    background-color: #2B689C;
 }

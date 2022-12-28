@@ -1,5 +1,12 @@
+/* WHOLE TABLE */
+.PricingTable {
+    width: 100%;
+}
+
+/* TABLE CELLS */
 .TabelCell:first-of-type {
     text-align: left;
+
 }
 
 .TabelCell:last-of-type {
