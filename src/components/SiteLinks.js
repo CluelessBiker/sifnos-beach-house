@@ -30,3 +30,17 @@ export const SocialLinks = (props, ...rest) => {
         </a>
     )
 }
+
+export const ExternalLinks = (props) => {
+    return (
+        <a
+            className={styles.ExternalLinks}
+            href={props.href}
+            target="_blank"
+        >
+            {props.children}
+            {' '}
+            {props.title}
+        </a>
+    )
+}
