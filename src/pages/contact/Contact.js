@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import ContactForm from './ContactForm';
-import RentalPrices from './RentalPrices';
+import ContactForm from './components/ContactForm';
+import RentalPrices from './components/RentalPrices';
 
 function Contact() {
 
