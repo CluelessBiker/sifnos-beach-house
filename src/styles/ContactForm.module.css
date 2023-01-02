@@ -9,10 +9,10 @@ p {
 
 /* FORM CONTAINER */
 .ContactForm {
-    width: 50%;
-    margin: auto;
+    margin: 0 0 20px 0;
     z-index: 19;
     padding: 20px;
+    height: 400px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid #F6EFEE;
