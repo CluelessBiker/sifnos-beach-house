@@ -17,29 +17,27 @@ const createData = (row) => {
 
 function RentalPrices() {
     return (
-        <Col sm={12} md={4} className={styles.Fees}>
-            <div className={styles.FeesBox}>
-                <Table>
-                    <TableHead heading={"Pricing"}/>
-                    {rows.map(row => (
-                        <TableRow
-                        key={row.id}
-                        rowCells={createData(row)}
-                        />
-                        ))}
-                </Table> 
-              
+        <div className={styles.FeesBox}>
+            <Table>
+                <TableHead heading={"Pricing"}/>
+                {rows.map(row => (
+                    <TableRow
+                    key={row.id}
+                    rowCells={createData(row)}
+                    />
+                    ))}
+            </Table> 
+            
 
-                <p>*5 night minimum</p>
+            <p>*5 night minimum</p>
 
-                <ExternalLinks
-                    href={ pdf }
-                    title="Rental Contract"
-                >
-                    <i className="fa-solid fa-download" aria-hidden="true" />
-                </ExternalLinks>
-            </div>
-        </Col>
+            <ExternalLinks
+                href={ pdf }
+                title="Rental Contract"
+            >
+                <i className="fa-solid fa-download" aria-hidden="true" />
+            </ExternalLinks>
+        </div>
     );
 }
 
